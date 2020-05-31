@@ -1,4 +1,4 @@
-inputString = input("Please enter String : ").lower()
+inputString = input("Please enter String or number : ").lower()
 if(inputString == inputString[:: - 1]):
    print("This is a Palindrome String")
 else:
